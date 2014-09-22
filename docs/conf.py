@@ -50,7 +50,7 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.intersphinx']
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_template']
+#templates_path = ['_template']
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -117,11 +117,12 @@ pygments_style = 'sphinx'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme = 'pydoctheme'
-html_theme_options = {'collapsiblesidebar': True}
+html_theme = 'default'
+#html_theme = 'pydoctheme'
+#html_theme_options = {'collapsiblesidebar': True}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ["_themes"]
+#html_theme_path = ["_themes"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -142,7 +143,7 @@ html_favicon = '_static/favicon.ico'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -153,13 +154,13 @@ html_last_updated_fmt = '%b %d, %Y'
 html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-html_sidebars = {
-    'index': 'indexsidebar.html',
-    '**': ['globaltoc.html',
-           'relations.html',
-           'sourcelink.html',
-           'searchbox.html']
-}
+# html_sidebars = {
+    # 'index': 'indexsidebar.html',
+    # '**': ['globaltoc.html',
+           # 'relations.html',
+           # 'sourcelink.html',
+           # 'searchbox.html']
+# }
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
