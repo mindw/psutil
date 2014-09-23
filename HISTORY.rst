@@ -1,7 +1,7 @@
 Bug tracker at https://github.com/giampaolo/psutil/issues
 
 3.0.0 - XXXX-XX-XX
-==================
+------------------
 
 **Enhancements**
 
@@ -47,7 +47,7 @@ Bug tracker at https://github.com/giampaolo/psutil/issues
 
 
 2.2.1 - 2015-02-02
-==================
+------------------
 
 **Bug fixes**
 
@@ -56,7 +56,7 @@ Bug tracker at https://github.com/giampaolo/psutil/issues
 
 
 2.2.0 - 2015-01-06
-==================
+------------------
 
 **Enhancements**
 
@@ -85,13 +85,13 @@ Bug tracker at https://github.com/giampaolo/psutil/issues
 
 
 2.1.3 - 2014-09-26
-==================
+------------------
 
 - #536: [Linux]: fix "undefined symbol: CPU_ALLOC" compilation error.
 
 
 2.1.2 - 2014-09-21
-==================
+------------------
 
 **Enhancements**
 
@@ -120,7 +120,7 @@ Bug tracker at https://github.com/giampaolo/psutil/issues
 
 
 2.1.1 - 2014-04-30
-==================
+------------------
 
 **Bug fixes**
 
@@ -131,7 +131,7 @@ Bug tracker at https://github.com/giampaolo/psutil/issues
 
 
 2.1.0 - 2014-04-08
-==================
+------------------
 
 **Enhancements**
 
@@ -145,7 +145,7 @@ Bug tracker at https://github.com/giampaolo/psutil/issues
 
 
 2.0.0 - 2014-03-10
-==================
+------------------
 
 **Enhancements**
 
@@ -312,7 +312,7 @@ DeprecationWarning.
 
 
 1.2.1 - 2013-11-25
-==================
+------------------
 
 **Bug fixes**
 
@@ -323,7 +323,7 @@ DeprecationWarning.
 
 
 1.2.0 - 2013-11-20
-==================
+------------------
 
 **Enhancements**
 
@@ -339,7 +339,7 @@ DeprecationWarning.
 
 
 1.1.3 - 2013-11-07
-==================
+------------------
 
 **Bug fixes**
 
@@ -348,7 +348,7 @@ DeprecationWarning.
 
 
 1.1.2 - 2013-10-22
-==================
+------------------
 
 **Bug fixes**
 
@@ -357,7 +357,7 @@ DeprecationWarning.
 
 
 1.1.1 - 2013-10-08
-==================
+------------------
 
 **Bug fixes**
 
@@ -366,7 +366,7 @@ DeprecationWarning.
 
 
 1.1.0 - 2013-09-28
-==================
+------------------
 
 **Enhancements**
 
@@ -395,7 +395,7 @@ DeprecationWarning.
 
 
 1.0.1 - 2013-07-12
-==================
+------------------
 
 **Bug fixes**
 
@@ -403,7 +403,7 @@ DeprecationWarning.
 
 
 1.0.0 - 2013-07-10
-==================
+------------------
 
 **Enhancements**
 
@@ -431,7 +431,7 @@ DeprecationWarning.
 
 
 0.7.1 - 2013-05-03
-==================
+------------------
 
 **Bug fixes**
 
@@ -443,7 +443,7 @@ DeprecationWarning.
 
 
 0.7.0 - 2013-04-12
-==================
+------------------
 
 **Enhancements**
 
@@ -505,7 +505,7 @@ DeprecationWarning.
 
 
 0.6.1 - 2012-08-16
-==================
+------------------
 
 **Enhancements**
 
@@ -524,7 +524,7 @@ DeprecationWarning.
 
 
 0.6.0 - 2012-08-13
-==================
+------------------
 
 **Enhancements**
 
@@ -612,7 +612,7 @@ DeprecationWarning.
 
 
 0.5.1 - 2012-06-29
-==================
+------------------
 
 **Enhancements**
 
@@ -626,7 +626,7 @@ DeprecationWarning.
 
 
 0.5.0 - 2012-06-27
-==================
+------------------
 
 **Enhancements**
 
@@ -695,7 +695,7 @@ DeprecationWarning.
 
 
 0.4.1 - 2011-12-14
-==================
+------------------
 
 **Bugfixes**
 
@@ -708,7 +708,7 @@ DeprecationWarning.
 
 
 0.4.0 - 2011-10-29
-==================
+------------------
 
 **Enhancements**
 
@@ -747,7 +747,7 @@ DeprecationWarning.
 
 
 0.3.0 - 2011-07-08
-==================
+------------------
 
 **Enhancements**
 
@@ -775,7 +775,7 @@ DeprecationWarning.
 
 
 0.2.1 - 2011-03-20
-==================
+------------------
 
 **Enhancements**
 
@@ -816,7 +816,7 @@ DeprecationWarning.
 
 
 0.2.0 - 2010-11-13
-==================
+------------------
 
 **Enhancements**
 
@@ -876,7 +876,7 @@ DeprecationWarning.
 
 
 0.1.3 - 2010-03-02
-==================
+------------------
 
 **Enhancements**
 
@@ -905,7 +905,7 @@ DeprecationWarning.
 
 
 0.1.2 - 2009-05-06
-==================
+------------------
 
 **Enhancements**
 
@@ -927,7 +927,7 @@ DeprecationWarning.
 
 
 0.1.1 - 2009-03-06
-==================
+------------------
 
 **Enhancements**
 
@@ -962,6 +962,6 @@ DeprecationWarning.
 
 
 0.1.0 - 2009-01-27
-==================
+------------------
 
 - Initial release.

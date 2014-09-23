@@ -10,6 +10,8 @@
    Old 1.2.1 documentation is still available
    `here <https://code.google.com/p/psutil/wiki/Documentation>`__.
 
+.. contents::
+   
 psutil documentation
 ====================
 
@@ -20,8 +22,6 @@ Quick links
 * `Blog <http://grodola.blogspot.com/search/label/psutil>`__
 * `Forum <http://groups.google.com/group/psutil/topics>`__
 * `Download <https://pypi.python.org/pypi?:action=display&name=psutil#downloads>`__
-* `Installation <https://github.com/giampaolo/psutil/blob/master/INSTALL.rst>`_
-* `What's new <https://github.com/giampaolo/psutil/blob/master/HISTORY.rst>`__
 
 About
 -----
@@ -43,6 +43,11 @@ From project's home page:
   `PyPy <http://pypy.org/>`__ is also known to work.
 
 The psutil documentation you're reading is distributed as a single HTML page.
+
+Installation
+============
+
+.. include:: ../INSTALL.rst
 
 System related functions
 ========================
@@ -1375,3 +1380,9 @@ Constants
   To be used in conjunction with :func:`psutil.net_if_stats()`.
 
   *New in 3.0.0*
+
+History
+=======
+
+.. include:: ../HISTORY.rst
+

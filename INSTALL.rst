@@ -1,6 +1,5 @@
-============================
 Installing using pip on UNIX
-============================
+----------------------------
 
 The easiest way to install psutil on UNIX is by using pip (but first you might
 need to install python header files; see later).
@@ -16,18 +15,16 @@ First install pip::
 You may need to install gcc and python header files first (see later).
 
 
-=====================
 Installing on Windows
-=====================
+---------------------
 
 Just get the right installer for your Python version and architecture from:
 https://pypi.python.org/pypi/psutil/#downloads
 Since wheels installers are also available you may also use pip.
 
 
-========================================
 Compiling on Windows using Visual Studio
-========================================
+----------------------------------------
 
 In order to compile psutil on Windows you'll need Visual Studio (Mingw32 is
 no longer supported). You must have the same version of Visual Studio used to compile
@@ -51,9 +48,8 @@ Windows SDK and .NET Framework 3.5 SP1 to be installed first.
 Once you have those run vcvars64.bat, then compile:
 http://stackoverflow.com/questions/11072521/
 
-===================
 Installing on Linux
-===================
+-------------------
 
 gcc is required and so the python headers. They can easily be installed by
 using the distro package manager. For example, on Debian amd Ubuntu::
@@ -69,9 +65,8 @@ Once done, you can build/install psutil with::
     $ python setup.py install
 
 
-==================
 Installing on OS X
-==================
+------------------
 
 OS X installation from source will require gcc which you can obtain as part of
 the 'XcodeTools' installer from Apple. Then you can run the standard distutils
@@ -85,9 +80,8 @@ To install and build::
     $ python setup.py install
 
 
-=====================
 Installing on FreeBSD
-=====================
+---------------------
 
 The same compiler used to install Python must be present on the system in order
 to build modules using distutils. Assuming it is installed, you can build using
@@ -102,9 +96,8 @@ Install and build::
     $ python setup.py install
 
 
-========
 Makefile
-========
+--------
 
 A makefile is available for both UNIX and Windows (make.bat).  It provides
 some automations for the tasks described above and might be preferred over
