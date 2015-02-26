@@ -25,6 +25,7 @@ try:
 except ImportError:
     pwd = None
 
+from ._version import __version__
 from . import _common
 from ._common import memoize
 from ._compat import callable, long
@@ -158,8 +159,7 @@ __all__ = [
 ]
 __all__.extend(_psplatform.__extra__all__)
 __author__ = "Giampaolo Rodola'"
-__version__ = "3.0.0"
-version_info = tuple([int(num) for num in __version__.split('.')])
+version_info = tuple([int(num) for num in __version__.split('.')[:3]])
 AF_LINK = _psplatform.AF_LINK
 _TOTAL_PHYMEM = None
 _POSIX = os.name == 'posix'
@@ -173,7 +173,7 @@ _timer = getattr(time, 'monotonic', time.time)
 # was compiled for a different version of psutil.
 # We want to prevent that by failing sooner rather than later.
 # See: https://github.com/giampaolo/psutil/issues/564
-if (int(__version__.replace('.', '')) !=
+if (int(''.join(__version__.split('.')[:3])) !=
         getattr(_psplatform.cext, 'version', None)):
     msg = "version conflict: %r C extension module was built for another " \
           "version of psutil (different than %s)" % (_psplatform.cext.__file__,

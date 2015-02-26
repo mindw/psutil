@@ -11,27 +11,14 @@ in Python.
 
 import os
 import sys
-try:
-    from setuptools import setup, Extension
-except ImportError:
-    from distutils.core import setup, Extension
-
-
+from setuptools import setup, Extension
+from pkg_resources import SetuptoolsVersion
 HERE = os.path.abspath(os.path.dirname(__file__))
 
-
-def get_version():
-    INIT = os.path.join(HERE, 'psutil/__init__.py')
-    with open(INIT, 'r') as f:
-        for line in f:
-            if line.startswith('__version__'):
-                ret = eval(line.strip().split(' = ')[1])
-                assert ret.count('.') == 2, ret
-                for num in ret.split('.'):
-                    assert num.isdigit(), ret
-                return ret
-        else:
-            raise ValueError("couldn't find version string")
+_locals = {}
+with open('psutil/_version.py') as fp:
+    exec(fp.read(), None, _locals)
+__version__ = _locals['__version__']
 
 
 def get_description():
@@ -39,10 +26,8 @@ def get_description():
     with open(README, 'r') as f:
         return f.read()
 
-
-VERSION = get_version()
-VERSION_MACRO = ('PSUTIL_VERSION', int(VERSION.replace('.', '')))
-
+base_version = SetuptoolsVersion(__version__).base_version
+VERSION_MACRO = ('PSUTIL_VERSION', int(base_version.replace('.', '')))
 
 # POSIX
 if os.name == 'posix':
@@ -141,7 +126,7 @@ else:
 def main():
     setup_args = dict(
         name='psutil',
-        version=VERSION,
+        version=__version__,
         description=__doc__.replace('\n', '').strip(),
         long_description=get_description(),
         keywords=[
